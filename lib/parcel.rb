@@ -10,4 +10,6 @@ class Parcel
   define_method(:volume) do
     volume = @side1 + @side2 + @side3 + @side4
   end
+  define_method(cost_to_ship) do
+  end
 end
